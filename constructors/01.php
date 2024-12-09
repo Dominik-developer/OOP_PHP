@@ -31,7 +31,7 @@ echo $apple->get_name();
 
 
 // example #2
-class Car {
+class Suv {
 
     public $brand;
     public $color;
@@ -52,7 +52,7 @@ class Car {
 }
 
 
-$suv = new Car("brander","red");
+$suv = new Suv("brander","red");
 
 echo $suv->get_brand();
 echo '<br>';
